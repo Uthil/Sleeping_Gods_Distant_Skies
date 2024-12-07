@@ -11,7 +11,7 @@ public class JourneyFrontFrame extends JFrame {
 
     public JourneyFrontFrame() {
         setTitle("Journey Log");
-        setSize(1280, 1024);
+        setSize(1600, 900);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
