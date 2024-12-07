@@ -6,8 +6,9 @@ import java.awt.*;
 public class JourneyBackFrame extends JFrame {
 
     public JourneyBackFrame() {
-        setTitle("Journey Back");
-        setSize(600, 400);
+        setTitle("Journey Log Map");
+        setSize(1280, 1024);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new BorderLayout());
 

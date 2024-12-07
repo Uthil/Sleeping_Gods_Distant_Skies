@@ -7,7 +7,8 @@ public class AchievementsFrame extends JFrame {
 
     public AchievementsFrame() {
         setTitle("Achievements");
-        setSize(600, 400);
+        setSize(1280, 1024);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new BorderLayout());
 

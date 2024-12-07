@@ -8,8 +8,9 @@ import java.awt.event.ActionListener;
 public class JourneyFrontFrame extends JFrame {
 
     public JourneyFrontFrame() {
-        setTitle("Journey Front Frame");
-        setSize(7008, 4096);
+        setTitle("Journey Log");
+        setSize(1280, 1024);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
@@ -20,7 +21,7 @@ public class JourneyFrontFrame extends JFrame {
         // Buttons
         JPanel buttonPanel = new JPanel(new FlowLayout());
         JButton achievementsButton = new JButton("Achievements");
-        JButton journeyBackButton = new JButton("Journey Back");
+        JButton journeyBackButton = new JButton("Journey Log Map");
         JButton exitButton = new JButton("Exit");
 
         buttonPanel.add(achievementsButton);
