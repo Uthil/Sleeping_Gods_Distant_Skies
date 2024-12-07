@@ -1,4 +1,3 @@
-// File: src/ui/JourneyFrontFrame.java
 package ui;
 
 import javax.swing.*;

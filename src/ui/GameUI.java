@@ -1,4 +1,3 @@
-// File: src/ui/GameUI.java
 package ui;
 
 import javax.swing.*;
