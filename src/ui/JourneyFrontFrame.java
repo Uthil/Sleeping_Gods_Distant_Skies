@@ -9,7 +9,7 @@ public class JourneyFrontFrame extends JFrame {
 
     public JourneyFrontFrame() {
         setTitle("Journey Front Frame");
-        setSize(800, 600);
+        setSize(7008, 4096);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
